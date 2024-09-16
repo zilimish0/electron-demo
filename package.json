@@ -57,7 +57,7 @@
     "appId": "demo.id",
     "productName": "测试",
     "files": [
-      "build/**/*",
+      "out/**/*",
       "config/**/*",
       "node_modules/**/*"
     ],
@@ -68,7 +68,7 @@
       }
     ],
     "directories": {
-      "output": "./build",
+      "output": "./out",
       "app": "./",
       "buildResources": "assets"
     },
