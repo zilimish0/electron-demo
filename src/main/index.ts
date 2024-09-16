@@ -3,7 +3,7 @@ import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 import axios from 'axios' //引入axios
-import { createDataTable, db } from '../db/sqlite3db'
+import { createDataTable, db } from './sqlite3db'
 
 function createWindow(): void {
   // Create the browser window.
