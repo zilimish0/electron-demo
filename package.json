@@ -2,7 +2,7 @@
   "name": "electron-app",
   "version": "1.0.0",
   "description": "An Electron application with Vue and TypeScript",
-  "main": "./out/main/index.js",
+  "main": "./build/main/index.js",
   "author": "example.com",
   "homepage": "https://electron-vite.org",
   "scripts": {
@@ -57,7 +57,7 @@
     "appId": "demo.id",
     "productName": "测试",
     "files": [
-      "out/**/*",
+      "build/**/*",
       "config/**/*",
       "node_modules/**/*"
     ],
@@ -68,7 +68,7 @@
       }
     ],
     "directories": {
-      "output": "./dist-out",
+      "output": "./build",
       "app": "./",
       "buildResources": "assets"
     },
